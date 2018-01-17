@@ -1,21 +1,23 @@
-
 package Chapter6;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
- * Converts US currency to Euros, Yen, or Pounds based on user inputed conversion rates
+ * Converts US currency to Euros, Yen, or Pounds based on user inputed
+ * conversion rates
+ *
  * @author James Miller
  */
 public class P6 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
     public static void main(String args[]) {
-        
+
         Scanner in = new Scanner(System.in);
         float eurosInDollar;
         float poundsInDollar;
@@ -79,12 +81,14 @@ public class P6 {
         }
 
     }
+
     /**
-     * Takes a given currency rate and amount and returns converted amount in a new currency
-     * 
-     * @param rate  the conversion rate
-     * @param ammt  the amount of currency to convert
-     * @return      the converted currency amount
+     * Takes a given currency rate and amount and returns converted amount in a
+     * new currency
+     *
+     * @param rate the conversion rate
+     * @param ammt the amount of currency to convert
+     * @return the converted currency amount
      */
     static float currencyConvert(float rate, float ammt) {
         return rate * ammt;

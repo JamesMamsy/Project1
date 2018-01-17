@@ -1,12 +1,14 @@
 package Chapter6;
+
 import java.util.Scanner;
 
 /**
  * Takes possible password from user and checks to see if is secure enough
- * 
+ *
  * @author James Miller
  */
 public class C6_18 {
+
     /**
      * Main Method
      *
